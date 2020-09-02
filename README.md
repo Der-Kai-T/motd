@@ -1,5 +1,5 @@
 # Message-of-the-Day-Bot
-This is a bot requested by u/rochesterrr on r/discordapp on reddit (https://www.reddit.com/r/discordapp/comments/iksn30/random_daily_message_bot/?utm_source=share&utm_medium=web2x&context=3). It's written with node.js as a framework.
+This is a bot requested by u/rochesterrr on r/discordapp on [reddit](https://www.reddit.com/r/discordapp/comments/iksn30/random_daily_message_bot/?utm_source=share&utm_medium=web2x&context=3). It's written with node.js as a framework.
 
 ## Installation (short)
 1. Install [node.js](https://nodejs.org/) on your System
@@ -9,7 +9,7 @@ This is a bot requested by u/rochesterrr on r/discordapp on reddit (https://www.
 5. run bot.js with node (node bot.js)
 6. make sure the bot is running and it will post a random Message of the Day.
 
-## Config.json
+## config.json
 ```
 {
     "prefix": "?",
@@ -28,3 +28,6 @@ You need to set some information in the config.json.
 
 `cron` is the cron-syntax used by node-schedule. You can use https://crontab.guru/ to get the correct Syntax. Not all features are currently supported (there are no W, L and #), You can find more [here](https://www.npmjs.com/package/node-schedule)
  
+## messages.json
+You can update the messages during runtime. Each time a message should be sent, the bot loads the messages.json. It's currently loaded with ten german quotes I've found on [this](http://sprueche-wuensche.de/sprueche-zum-nachdenken/) Website.
+
