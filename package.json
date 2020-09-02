@@ -1,0 +1,24 @@
+{
+  "name": "message-of-the-day-bot",
+  "version": "1.0.0",
+  "description": "A Discord-Bot that posts a random message from a text file to a certain channel on a certain discord-server",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Der-Kai-T/motd.git"
+  },
+  "author": "Kai",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Der-Kai-T/motd/issues"
+  },
+  "homepage": "https://github.com/Der-Kai-T/motd#readme",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "node-schedule": "^1.3.2",
+    "ytdl": "^1.3.5"
+  }
+}
