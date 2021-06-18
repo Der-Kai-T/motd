@@ -12,7 +12,7 @@ const {prefix, token, channel, cron} = require("./config.json");
 //Create Bot-Instance
 const client = new Discord.Client();
 
-
+const chan = client.channels.cache.find(channel => channel.name === 'bottest');
 
 client.once("reconnecting", () => {
     console.log("Reconnecting!");
